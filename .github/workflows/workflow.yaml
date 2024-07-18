@@ -50,8 +50,8 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: ${{ secrets.AWS_REGION }}
 
-      - name: Output SNS Topic ARN
-        run: terraform output sns_topic_arn
+ #   - name: Output SNS Topic ARN
+#      run: terraform output sns_topic_arn
     
 #    - name: Export terraform outputs
 #      id: tfout
