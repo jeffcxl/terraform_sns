@@ -1,4 +1,8 @@
 terraform {
+  required_version = ">= 5.58.0"  # Adjust to the version you are using or need
+}
+
+terraform {
   backend "s3" {
     bucket = "sctp-ce6-tfstate"
     key    = "jeff-sns.tfstate" #Remember to change this
