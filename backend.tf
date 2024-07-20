@@ -1,5 +1,5 @@
 terraform {
-  required_version = ">= 5.58.0"  # Adjust to the version you are using or need
+  required_version = ">= 1.0.0"  # Adjust to the version you are using or need
 }
 
 terraform {
